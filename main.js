@@ -59,7 +59,7 @@ function snapshot(){
 }
 
 function save(){
-    link = document.getElementsById("link");
+    link = document.getElementById("link");
     image = document.getElementById("selfie_image").src;
     link.href = image;
     link.click();
