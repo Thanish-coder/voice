@@ -39,7 +39,7 @@ function speak(){
     setTimeout(function()
     {
         snapshot();
-        save()
+        save();
     },5000);
 }
 
